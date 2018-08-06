@@ -3,9 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 var unirest = require("unirest");
-let  = {
-    results: []
-};
+
 var port = process.env.PORT || 8080;
 
 
