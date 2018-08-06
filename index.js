@@ -15,7 +15,7 @@ server.use(bodyParser.json());
 
 server.post('/example', function (request, response) {
     var param = request.body.intent.inputs;
-    param.forEach(element => { console.log(element)});
+    Object.keys(param).forEach(element => { console.log(param[element])});
     response.setHeader('Content-Type', 'application/json');
     response.send(JSON.stringify({
         "speech": "Hello from /example :)",
