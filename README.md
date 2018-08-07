@@ -20,7 +20,7 @@ This simple app will help you understand
 
 ## Link your webhook to Proximity
 
-Go to (Proximity)[https://www.gogowego.com/login]
+Go to [Proximity](https://www.gogowego.com/login)
 - Login
 - Create your own Virtual Assistant
 - In parameters, go to Webhook tab and paste your API's URL endpoint. Example of Webhook URL  : https://webhook-proximity-example.herokuapp.com/example
