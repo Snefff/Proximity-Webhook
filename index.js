@@ -25,7 +25,7 @@ server.post('/example', function (request, response) {
         "posts": [{
         "type": "card",
         "title": "Le titre",
-        "image": "Url de l'image ,
+        "image": "Url de l'image" ,
         "text": "Le texte",
         "buttons": [{
                        "openInPanel": false,
